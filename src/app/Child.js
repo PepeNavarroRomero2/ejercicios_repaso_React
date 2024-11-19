@@ -9,5 +9,5 @@ function Child(respuesta){
             <button onClick={devuelta}>Clica</button>
         </>
     );
-}
+}   
 export default Child;
