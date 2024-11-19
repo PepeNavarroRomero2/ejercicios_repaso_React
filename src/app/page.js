@@ -7,6 +7,7 @@ import Counter from "./Counter";
 import ProductList from "./productList";
 import App2 from "./app2";
 import ToggleSwitch from "./ToggleSwitch";
+import ToDoList from "./ToDoList";
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
       <ProductList/>
       <App2/>
       <ToggleSwitch/>
+      <ToDoList/>
     </div>
   );
 }
