@@ -9,7 +9,9 @@ function Counter(){
     const [count, setCount] = useState(0);
     return (
         <>
-            <button onClick={()=>{setCount(count+1)}}>Pulsado: {count}</button>
+            <p>Contador {count}</p>
+            <button onClick={()=>{setCount(count+1)}}>Incrementar</button>
+            <button onClick={()=>{setCount(count-1)}}>Disminuir</button>
         </>
     );
 }
