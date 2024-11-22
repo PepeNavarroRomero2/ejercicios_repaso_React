@@ -12,6 +12,7 @@ import LoginControl from "./LoginControl";
 import App3 from "./app3";
 import ContactForm from "./ContactForm";
 import App4 from "./app4";
+import App5 from "./app5";
 export default function Home() {
   return (
     <div>
@@ -49,6 +50,9 @@ export default function Home() {
       <br></br>
       <br></br>
       <App4/>
+      <br></br>
+      <br></br>
+      <App5/>
       <br></br>
       <br></br>
     </div>
