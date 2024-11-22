@@ -1,4 +1,7 @@
-# Node.js dependencies
+# Ignorar la carpeta node_modules en la ruta específica
+../node_modules/
+
+# Ignorar dependencias locales en el proyecto actual
 /node_modules
 /.pnp
 .pnp.*
@@ -40,6 +43,3 @@ yarn-error.log*
 # TypeScript specific
 *.tsbuildinfo
 next-env.d.ts
-
-# Ignore all node_modules
-node_modules/
