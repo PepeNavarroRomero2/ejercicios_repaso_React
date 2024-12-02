@@ -13,6 +13,7 @@ import App3 from "./app3";
 import ContactForm from "./ContactForm";
 import App4 from "./app4";
 import App5 from "./app5";
+import ImageGallery from "./ImageGallery";
 export default function Home() {
   return (
     <div>
@@ -55,6 +56,7 @@ export default function Home() {
       <App5/>
       <br></br>
       <br></br>
+      <ImageGallery/>
     </div>
   );
 }
